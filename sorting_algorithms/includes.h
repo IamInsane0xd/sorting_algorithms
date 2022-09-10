@@ -14,3 +14,4 @@
 // sorts
 #include "bubble.h"
 #include "selection.h"
+#include "insertion.h"

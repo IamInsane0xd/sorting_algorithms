@@ -33,6 +33,9 @@
     <ClCompile Include="selection.cpp">
       <Filter>Source Files\Sorts</Filter>
     </ClCompile>
+    <ClCompile Include="insertion.cpp">
+      <Filter>Source Files\Sorts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
@@ -47,5 +50,11 @@
     <ClInclude Include="selection.h">
       <Filter>Header Files\Sorts</Filter>
     </ClInclude>
+    <ClInclude Include="insertion.h">
+      <Filter>Header Files\Sorts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
   </ItemGroup>
 </Project>

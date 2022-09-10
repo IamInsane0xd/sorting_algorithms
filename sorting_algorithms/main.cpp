@@ -16,5 +16,10 @@ int main()
 
 	std::cout << std::endl;
 
+	std::vector<int> insertion { 25, 17, 31, 13, 2 };
+	printVector(insertion);
+	insertionSort(insertion);
+	printVector(insertion);
+
 	return 0;
 }
