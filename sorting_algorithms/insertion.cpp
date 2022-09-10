@@ -2,23 +2,13 @@
 
 void insertionSort(std::vector<int> &arr)
 {
-	int i, j;
+	int i, j, k;
 
-	for (i = 0; i < arr.size(); i++)
+	for (i = 1; i < arr.size(); i++)
 	{
-		if (i == 0 && arr.at(i) > arr.at(i + 1))
+		for (j = i - 1, k = i; j >= 0 && arr.at(k) < arr.at(j); j--, k--)
 		{
-			swap(arr, i, i + 1);
-			continue;
-		}
-
-		if (i == 1)
-			continue;
-
-		for (j = i; j > 0; j--)
-		{
-			if (arr.at(j) < arr.at(j - 1))
-				swap(arr, j, j - 1);
+			swap(arr, k, j);
 		}
 	}
 }
