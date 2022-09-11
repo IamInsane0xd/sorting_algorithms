@@ -2,11 +2,11 @@
 
 void selectionSort(std::vector<int> &arr)
 {
-	int i, mi;
+	int n = arr.size(), i, mi;
 
-	for (i = 0; i < arr.size() - 1; i++)
+	for (i = 0; i < n - 1; i++)
 	{
-		mi = minIndex(arr, i, arr.size() - 1);
+		mi = minIndex(arr, i, n - 1);
 
 		if (i != mi)
 			swap(arr, i, mi);

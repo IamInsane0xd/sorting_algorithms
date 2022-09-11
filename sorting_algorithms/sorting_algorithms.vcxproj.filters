@@ -36,6 +36,12 @@
     <ClCompile Include="insertion.cpp">
       <Filter>Source Files\Sorts</Filter>
     </ClCompile>
+    <ClCompile Include="merge.cpp">
+      <Filter>Source Files\Sorts</Filter>
+    </ClCompile>
+    <ClCompile Include="cocktail.cpp">
+      <Filter>Source Files\Sorts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
@@ -51,6 +57,12 @@
       <Filter>Header Files\Sorts</Filter>
     </ClInclude>
     <ClInclude Include="insertion.h">
+      <Filter>Header Files\Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="merge.h">
+      <Filter>Header Files\Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="cocktail.h">
       <Filter>Header Files\Sorts</Filter>
     </ClInclude>
   </ItemGroup>

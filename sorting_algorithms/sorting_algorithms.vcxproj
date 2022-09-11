@@ -128,15 +128,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bubble.cpp" />
+    <ClCompile Include="cocktail.cpp" />
     <ClCompile Include="insertion.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="merge.cpp" />
     <ClCompile Include="selection.cpp" />
     <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bubble.h" />
+    <ClInclude Include="cocktail.h" />
     <ClInclude Include="includes.h" />
     <ClInclude Include="insertion.h" />
+    <ClInclude Include="merge.h" />
     <ClInclude Include="selection.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>

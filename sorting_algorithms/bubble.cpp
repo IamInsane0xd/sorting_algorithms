@@ -2,7 +2,7 @@
 
 void bubbleSort(std::vector<int> &arr)
 {
-	int n = arr.size(), i, j, t;
+	int n = arr.size(), i, j;
 	bool s;
 
 	for (i = 0; i < n - 1; i++)

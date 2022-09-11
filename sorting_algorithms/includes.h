@@ -13,5 +13,7 @@
 
 // sorts
 #include "bubble.h"
-#include "selection.h"
+#include "cocktail.h"
 #include "insertion.h"
+#include "merge.h"
+#include "selection.h"

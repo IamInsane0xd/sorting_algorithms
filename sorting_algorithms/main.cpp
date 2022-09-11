@@ -21,5 +21,19 @@ int main()
 	insertionSort(insertion);
 	printVector(insertion);
 
+	std::cout << std::endl;
+
+	std::vector<int> merge { 6, 3, 7, 2, 8, 4, 9, 1 };
+	printVector(merge);
+	mergeSort(merge, 0, merge.size() - 1);
+	printVector(merge);
+
+	std::cout << std::endl;
+
+	std::vector<int> cocktail { 5, 1, 4, 2, 8, 0, 2 };
+	printVector(cocktail);
+	cocktailSort(cocktail);
+	printVector(cocktail);
+
 	return 0;
 }
